@@ -5,7 +5,10 @@ export function Logo({ className }: { className?: string }) {
     <div className={`flex items-center gap-2 ${className}`}>
       <Mark className="h-8 w-8 text-rose-500" />
       <span className="text-xl font-bold tracking-tight text-zinc-900 dark:text-white">
-        Elova
+        Elova{' '}
+        <span className="font-normal text-zinc-500 dark:text-zinc-400">
+          | Docs
+        </span>
       </span>
     </div>
   )
