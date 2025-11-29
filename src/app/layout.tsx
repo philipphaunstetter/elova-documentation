@@ -9,8 +9,8 @@ import '@/styles/tailwind.css'
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - Protocol API Reference',
-    default: 'Protocol API Reference',
+    template: '%s - Elova Documentation',
+    default: 'Elova Documentation',
   },
 }
 
@@ -30,7 +30,7 @@ export default async function RootLayout({
 
   return (
     <html lang="en" className="h-full" suppressHydrationWarning>
-      <body className="flex min-h-full bg-white antialiased dark:bg-zinc-900">
+      <body className="flex min-h-full bg-white antialiased dark:bg-slate-900">
         <Providers>
           <div className="w-full">
             <Layout allSections={allSections}>{children}</Layout>
