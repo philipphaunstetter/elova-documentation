@@ -15,32 +15,18 @@ interface Resource {
 
 const resources: Array<Resource> = [
   {
-    href: '/contacts',
-    name: 'Contacts',
+    href: '/release-notes',
+    name: 'Release Notes',
     description:
-      'Learn about the contact model and how to create, retrieve, update, delete, and list contacts.',
-    icon: UserIcon,
-  },
-  {
-    href: '/conversations',
-    name: 'Conversations',
-    description:
-      'Learn about the conversation model and how to create, retrieve, update, delete, and list conversations.',
-    icon: ChatBubbleIcon,
-  },
-  {
-    href: '/messages',
-    name: 'Messages',
-    description:
-      'Learn about the message model and how to create, retrieve, update, delete, and list messages.',
+      'Stay up to date with the latest Elova features, improvements, and bug fixes.',
     icon: EnvelopeIcon,
   },
   {
-    href: '/groups',
-    name: 'Groups',
+    href: '/troubleshooting',
+    name: 'Troubleshooting',
     description:
-      'Learn about the group model and how to create, retrieve, update, delete, and list groups.',
-    icon: UsersIcon,
+      'Find solutions to common issues and learn how to debug problems with your Elova deployment.',
+    icon: UserIcon,
   },
 ]
 

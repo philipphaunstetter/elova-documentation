@@ -3,9 +3,9 @@ import { Resources } from '@/components/Resources'
 import { HeroPattern } from '@/components/HeroPattern'
 
 export const metadata = {
-  title: 'API Documentation',
+  title: 'Elova Documentation',
   description:
-    'Learn everything there is to know about the Protocol API and integrate Protocol into your product.',
+    'Learn how to install, configure, and deploy Elova for n8n workflow observability.',
 }
 
 export const sections = [
@@ -15,26 +15,26 @@ export const sections = [
 
 <HeroPattern />
 
-# API Documentation
+# Elova Documentation
 
-Use the Protocol API to access contacts, conversations, group messages, and more and seamlessly integrate your product into the workflows of dozens of devoted Protocol users. {{ className: 'lead' }}
+Elova provides workflow observability for n8n, helping you monitor, debug, and optimize your automation workflows with confidence. Deploy with Docker on your own infrastructure and keep your workflow data secure. {{ className: 'lead' }}
 
 <div className="not-prose mt-6 mb-16 flex gap-3">
   <Button href="/quickstart" arrow="right">
     <>Quickstart</>
   </Button>
-  <Button href="/sdks" variant="outline">
-    <>Explore SDKs</>
+  <Button href="/installation" variant="outline">
+    <>Installation Guide</>
   </Button>
 </div>
 
 ## Getting started {{ anchor: false }}
 
-To get started, create a new application in your [developer settings](#), then read about how to make requests for the resources you need to access using our HTTP APIs or dedicated client SDKs. When your integration is ready to go live, publish it to our [integrations directory](#) to reach the Protocol community. {{ className: 'lead' }}
+Elova is available as a Docker image on Docker Hub at `elova/elova`. Get started by deploying with Docker Compose or integrate it directly into your existing infrastructure. Follow our quickstart guide to have Elova up and running in minutes. {{ className: 'lead' }}
 
 <div className="not-prose">
-  <Button href="/sdks" variant="text" arrow="right">
-    <>Get your API key</>
+  <Button href="/docker-setup" variant="text" arrow="right">
+    <>Docker Setup Guide</>
   </Button>
 </div>
 

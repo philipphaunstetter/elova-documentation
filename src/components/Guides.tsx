@@ -3,26 +3,26 @@ import { Heading } from '@/components/Heading'
 
 const guides = [
   {
-    href: '/authentication',
-    name: 'Authentication',
-    description: 'Learn how to authenticate your API requests.',
+    href: '/installation',
+    name: 'Installation',
+    description: 'Get Elova running with Docker in minutes.',
   },
   {
-    href: '/pagination',
-    name: 'Pagination',
-    description: 'Understand how to work with paginated responses.',
+    href: '/docker-setup',
+    name: 'Docker Setup',
+    description: 'Configure Elova using our Docker image from Docker Hub.',
   },
   {
-    href: '/errors',
-    name: 'Errors',
+    href: '/environment-variables',
+    name: 'Environment Variables',
     description:
-      'Read about the different types of errors returned by the API.',
+      'Configure Elova with environment variables for your deployment.',
   },
   {
-    href: '/webhooks',
-    name: 'Webhooks',
+    href: '/docker-compose',
+    name: 'Docker Compose',
     description:
-      'Learn how to programmatically configure webhooks for your app.',
+      'Deploy Elova with Docker Compose for easy multi-container setup.',
   },
 ]
 
