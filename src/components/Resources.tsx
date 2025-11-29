@@ -44,12 +44,12 @@ function Resource({ resource }: { resource: Resource }) {
       <div className="rounded-2xl ring-1 ring-zinc-900/7.5 ring-inset dark:ring-white/10 w-full">
         <div className="rounded-2xl px-4 pt-16 pb-4">
           <ResourceIcon icon={resource.icon} />
-          <h3 className="mt-4 text-sm/7 font-semibold text-zinc-900 dark:text-white">
+          <h3 className="mt-4 text-base/7 font-semibold text-zinc-900 dark:text-white">
             <Link href={resource.href}>
               {resource.name}
             </Link>
           </h3>
-          <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">
+          <p className="mt-1 text-base text-zinc-600 dark:text-zinc-400">
             {resource.description}
           </p>
         </div>
