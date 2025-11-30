@@ -74,7 +74,7 @@ export const Header = forwardRef<
       <Search />
       <div className="flex items-center gap-5 lg:hidden">
         <MobileNavigation />
-        <CloseButton as={Link} href="https://www.elova.dev" aria-label="Home">
+        <CloseButton as={Link} href="https://docs.elova.dev" aria-label="Home">
           <Logo className="h-6" />
         </CloseButton>
       </div>
